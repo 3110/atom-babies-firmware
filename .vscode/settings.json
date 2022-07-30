@@ -1,0 +1,24 @@
+{
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "C_Cpp.clang_format_style": "file",
+    "[cpp]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+    },
+    "[plaintext]": {
+        "editor.insertSpaces": false,
+        "editor.detectIndentation": false,
+        "editor.comments.insertSpace": false
+    },
+    "files.associations": {
+        "array": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "initializer_list": "cpp",
+        "*.tcc": "cpp",
+        "system_error": "cpp"
+    },
+}
