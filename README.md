@@ -23,7 +23,7 @@ custom_firmware_suffix = .bin # ファームウェアの拡張子
 custom_firmware_dir = firmware # ファームウェアを生成するディレクトリ（相対パス）
 ...
 
-[env:m5atom]
+[env:firmware]
 ...
 extra_scripts = post:generate_user_custom.py
 ```
