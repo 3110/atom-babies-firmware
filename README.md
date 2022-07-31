@@ -12,21 +12,7 @@ PlatformIO のメニューから「Generate User Custom」を実行すると`fir
 
 ## 他のプロジェクトで利用する方法
 
-利用するプロジェクトの`platformio.ini`があるディレクトリに`generate_user_custom.py`をコピーし，`platformio.ini`に以下を設定します。
-
-```
-[env]
-...
-custom_firmware_version = 0.0.1 # ファームウェアのバージョン番号
-custom_firmware_name = atom_babies_firmware # ファームウェアの名前
-custom_firmware_suffix = .bin # ファームウェアの拡張子
-custom_firmware_dir = firmware # ファームウェアを生成するディレクトリ（相対パス）
-...
-
-[env:firmware]
-...
-extra_scripts = post:generate_user_custom.py
-```
+[M5Burner v3で独自ファームウェアを生成する雛形](https://github.com/3110/m5burner-user-custom-platformio-template)を参照してください。
 
 ## 参考
 
