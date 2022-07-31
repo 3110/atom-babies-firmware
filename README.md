@@ -1,6 +1,6 @@
 # ATOM Babies ファームウェア for M5Burner v3
 
-M5Burner v3 の User Custom で配布する ATOM Babies のファームウェアです。
+M5Burner v3 の User Custom で配布する [ATOM Babies](https://github.com/3110/atom-babies-arduino) のファームウェアです。
 
 ## 事前準備
 
