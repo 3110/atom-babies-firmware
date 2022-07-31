@@ -4,7 +4,7 @@ M5Burner v3 の User Custom で配布する ATOM Babies のファームウェア
 
 ## 事前準備
 
-[PlatformIO](https://platformio.org/) 環境が必要です。私は Windows 11 環境の [VS Code](https://code.visualstudio.com/)で使用しています。
+[PlatformIO](https://platformio.org/) 環境が必要です。私は Windows 11 環境で[PlatformIO IDE for VSCode](https://platformio.org/install/ide?install=vscode)を使用しています。
 
 ## 実行方法
 
@@ -30,4 +30,4 @@ extra_scripts = post:generate_user_custom.py
 
 ## 参考
 
-- [M5Burner v3 の使いかた](https://zenn.dev/saitotetsuya/articles/m5stack_m5burner_v3)
+- 「[M5Burner v3 の使いかた](https://zenn.dev/saitotetsuya/articles/m5stack_m5burner_v3)」の「[10. 独自ファームウェアの公開](https://zenn.dev/saitotetsuya/articles/m5stack_m5burner_v3#10.-%E7%8B%AC%E8%87%AA%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2%E3%81%AE%E5%85%AC%E9%96%8B)」
