@@ -5,6 +5,8 @@ firmware_name = env.GetProjectOption("custom_firmware_name")
 firmware_version = env.GetProjectOption("custom_firmware_version")
 firmware_suffix = env.GetProjectOption("custom_firmware_suffix")
 firmware_dir = env.GetProjectOption("custom_firmware_dir")
+if not os.path.exists(firmware_dir):
+    os.makedirs(firmware_dir)
 
 firmware_bin = "%s_%s%s" % (firmware_name, firmware_version, firmware_suffix)
 firmware_path = os.path.join(firmware_dir, firmware_bin)
